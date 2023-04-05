@@ -1,0 +1,68 @@
+.header{
+    position: fixed;
+    width: 100%;
+}
+
+.payment{
+    background: #ffffff;
+    margin: 50px;
+    border-radius: 15px;
+    animation-name: animate;
+    animation-duration: 500ms;
+    box-shadow: 10px 10px 15px rgba(128, 128, 128, 0.219);
+}
+
+
+
+@keyframes animate {
+    0%{
+  transform: translateX(20px);
+    }
+    50%{
+        transform: translateX(-10px);
+    }
+    100%{
+
+    }
+    
+}
+
+
+.payment_container{
+   
+}
+
+ .h1{
+    padding: 10px;
+    font-weight: 700;
+    margin: 20px;
+    font-size: 35px;
+    padding: .8em;
+    margin-top: 50px;
+    border-bottom: 1px  solid lightgray;
+}
+
+ .h1 > a{
+    text-decoration: none;
+}
+
+.payment_section{
+    display: flex;
+    padding: 20px;
+    margin: 0 20px;
+    border-bottom: 1px  solid lightgray;
+}
+
+.payment_title{
+    flex: 0.2;
+}
+
+
+.payment_address,
+.payment_items,
+.payment_details
+{
+    flex: 0.8;
+}
+
+

@@ -1,0 +1,58 @@
+.checkout{
+display: flex;
+
+background-color: white;
+height: max-content;
+}
+
+.checkout_ad{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.checkout_title{
+    margin-right: 10px;
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+}
+
+
+.checkout_left{
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.checkout_right{
+    margin-top: 60px;
+}
+
+.h3{
+    background: linear-gradient(to right,#f0c14bce, rgba(255, 255, 255, 0.023));
+    width: 45%;
+    padding: .5em;
+    border-radius: 25px;
+    font-size: 17px;
+}
+
+.slide{
+    animation-duration: 1s;
+    animation-name: animate;
+}
+
+@keyframes animate {
+    0%{
+        margin-left: 200px;
+    }
+    0.1%{
+        margin-left: 190px;
+    }
+    100%{
+        margin-left: 0px;
+    }
+    
+}
